@@ -20,14 +20,14 @@ This script automates the conversion of Plex DVR recordings to the more efficien
 
 2. Make the script executable (if not already):
    ```
-   chmod +x "/Users/antoniotorres/Library/Application Support/Plex Media Server/Scripts/PlexDVR-Handbrake-h265.sh"
+   chmod +x "/path/to/PlexDVR-Handbrake-h265.sh"
    ```
 
 3. In Plex Media Server:
    - Go to Settings > DVR > Post-Processing
    - Add this script's path in the post-processing script field:
      ```
-     /Users/antoniotorres/Library/Application Support/Plex Media Server/Scripts/PlexDVR-Handbrake-h265.sh
+     /path/to/PlexDVR-Handbrake-h265.sh
      ```
 
 ## Customization Options
@@ -59,7 +59,7 @@ The script preserves original audio tracks. To change:
 ## Logging
 The script logs all operations to:
 ```
-/Users/antoniotorres/Library/Application Support/Plex Media Server/Scripts/handbrake_log.txt
+/path/to/handbrake_log.txt
 ```
 
 You can change the log location by modifying the `LOG_FILE` variable.
